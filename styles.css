@@ -1,0 +1,127 @@
+nav {
+    background-color: #f5f5dc;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+    flex:1;
+}
+a {
+    text-decoration: none;
+    color: #008080;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+}
+
+.project-thumbnail {
+    background-color: #f5f5dc; 
+    padding: 20px;
+    text-align: center;
+}
+
+.centered {
+    grid-column: span 2; 
+    text-align: center;
+}
+
+.project-img {
+    height: 250px; 
+}
+#contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; 
+}
+
+.submit-button {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white; 
+    padding: 0.1px;
+}
+.diamond-point {
+    margin-right: 5px;
+    color: #008080; 
+}
+
+ul {
+    list-style: none; 
+    padding: 0;
+}
+
+ul li::before {
+    content: "\25C6"; 
+    margin-right: 5px;
+    color: #008080; 
+}
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    display: block; 
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#home {
+    background-color: 	#ffe4e1; 
+}
+#about_me{ 
+    background-color: #ffe4e1;
+}
+#my_work {
+    background-color: #ffe4e1; 
+}
+#contact{
+    background-color: #afeeee;
+}
+h3{
+    font-style: italic;
+}
+.diff{
+    font-style: italic;
+    color:#483d8b;
+}
